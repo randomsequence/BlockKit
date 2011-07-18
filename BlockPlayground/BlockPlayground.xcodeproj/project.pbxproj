@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		303759AB13D41C7B005B2F30 /* NSUndoManager-BKAdditions.m in Sources */ = {isa = PBXBuildFile; fileRef = 303759AA13D41C7B005B2F30 /* NSUndoManager-BKAdditions.m */; };
 		6A259F9B13D273DB0034CA1D /* NSDate-BKAdditions.m in Sources */ = {isa = PBXBuildFile; fileRef = 6A259F9A13D273DB0034CA1D /* NSDate-BKAdditions.m */; };
 		6A259FBE13D28BC20034CA1D /* NSEnumerator-BKAdditions.m in Sources */ = {isa = PBXBuildFile; fileRef = 6A259FBD13D28BC20034CA1D /* NSEnumerator-BKAdditions.m */; };
 		F13EAA7F13D25084008C9BD2 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F13EAA7E13D25084008C9BD2 /* UIKit.framework */; };
@@ -37,6 +38,8 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		303759A913D41C7B005B2F30 /* NSUndoManager-BKAdditions.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSUndoManager-BKAdditions.h"; sourceTree = "<group>"; };
+		303759AA13D41C7B005B2F30 /* NSUndoManager-BKAdditions.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSUndoManager-BKAdditions.m"; sourceTree = "<group>"; };
 		6A259F9913D273DB0034CA1D /* NSDate-BKAdditions.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSDate-BKAdditions.h"; sourceTree = "<group>"; };
 		6A259F9A13D273DB0034CA1D /* NSDate-BKAdditions.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSDate-BKAdditions.m"; sourceTree = "<group>"; };
 		6A259FBC13D28BC20034CA1D /* NSEnumerator-BKAdditions.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSEnumerator-BKAdditions.h"; sourceTree = "<group>"; };
@@ -202,6 +205,8 @@
 				F13EAAB913D251D2008C9BD2 /* UIView-BKAdditions.m */,
 				6A259FBC13D28BC20034CA1D /* NSEnumerator-BKAdditions.h */,
 				6A259FBD13D28BC20034CA1D /* NSEnumerator-BKAdditions.m */,
+				303759A913D41C7B005B2F30 /* NSUndoManager-BKAdditions.h */,
+				303759AA13D41C7B005B2F30 /* NSUndoManager-BKAdditions.m */,
 			);
 			name = BlockKit;
 			path = ../../Source;
@@ -290,6 +295,7 @@
 				F152E30C13D2939500726781 /* NSTimer-BKAdditions.m in Sources */,
 				F152E31013D293DA00726781 /* BKVoidBlockWrapper.m in Sources */,
 				F152E38013D36CF300726781 /* BlockPlaygroundTableViewController.m in Sources */,
+				303759AB13D41C7B005B2F30 /* NSUndoManager-BKAdditions.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
