@@ -6,7 +6,10 @@
 //
 
 #import <Foundation/Foundation.h>
+#import "BKTypes.h"
 
 @interface NSUndoManager (BKAdditions)
+
+- (void)registerUndoWithBlock:(BKVoidBlock)block;
 
 @end
