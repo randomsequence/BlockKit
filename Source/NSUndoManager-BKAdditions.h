@@ -7,6 +7,6 @@
 
 #import <Foundation/Foundation.h>
 
-@interface NSUndoManager (NSUndoManager_BKAdditions)
+@interface NSUndoManager (BKAdditions)
 
 @end
