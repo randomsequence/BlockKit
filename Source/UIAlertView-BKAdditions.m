@@ -7,6 +7,7 @@
 
 #import "UIAlertView-BKAdditions.h"
 
+#if TARGET_OS_IPHONE
 
 // Private Classes
 @interface BKAlertViewDelegate : NSObject <UIAlertViewDelegate>
@@ -58,3 +59,5 @@
 }
 
 @end
+
+#endif

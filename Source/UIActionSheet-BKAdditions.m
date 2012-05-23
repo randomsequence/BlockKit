@@ -7,6 +7,7 @@
 
 #import "UIActionSheet-BKAdditions.h"
 
+#if TARGET_OS_IPHONE
 
 // Private Classes
 @interface BKActionSheetDelegate : NSObject <UIActionSheetDelegate>
@@ -78,3 +79,5 @@
 }
 
 @end
+
+#endif 

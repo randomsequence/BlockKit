@@ -9,6 +9,7 @@
 #import <QuartzCore/QuartzCore.h>
 #import "BKTypes.h"
 
+#if TARGET_OS_IPHONE
 
 @interface BKAnimationDelegate : NSObject {
     UIView *view;
@@ -27,3 +28,5 @@
 - (void)start;
 
 @end
+
+#endif

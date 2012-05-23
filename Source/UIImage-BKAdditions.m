@@ -8,6 +8,7 @@
 #import "UIImage-BKAdditions.h"
 #import "BKCoreGraphics.h"
 
+#if TARGET_OS_IPHONE
 
 @implementation UIImage (BKAdditions)
 
@@ -19,3 +20,5 @@
 }
 
 @end
+
+#endif

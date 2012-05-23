@@ -7,6 +7,7 @@
 
 #import "BKAnimationDelegate.h"
 
+#if TARGET_OS_IPHONE
 
 @implementation BKAnimationDelegate
 
@@ -65,3 +66,5 @@
 }
 
 @end
+
+#endif

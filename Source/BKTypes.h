@@ -5,6 +5,7 @@
 //  Created by Tristan O'Tierney on 7/16/11.
 //
 
+#import <TargetConditionals.h>
 
 // Types
 typedef void (^BKVoidBlock)(void);
@@ -18,9 +19,11 @@ typedef void (^BKStringBlock)(NSString *string);
 typedef void (^BKUniCharBlock)(unichar character);
 typedef void (^BKConnectionCompletionBlock)(NSData *responseData, NSURLResponse *urlResponse, NSError *error);
 typedef void (^BKDateBlock)(NSDate *date);
-typedef void (^BKViewBlock)(UIView *view);
 typedef void (^BKTaskBlock)(id obj, NSDictionary *change);
 
+#if TARGET_OS_IPHONE
+typedef void (^BKViewBlock)(UIView *view);
+#endif
 
 // Helper Macros
 #define BKBlockCat(A, B) A##B

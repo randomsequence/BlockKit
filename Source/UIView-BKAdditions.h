@@ -5,9 +5,11 @@
 //  Created by Nick Paulson on 7/16/11.
 //
 
-#import <UIKit/UIKit.h>
 #import "BKTypes.h"
 
+#if TARGET_OS_IPHONE
+
+#import <UIKit/UIKit.h>
 
 @interface UIView (BKAdditions)
 
@@ -22,3 +24,5 @@ extern BKViewBlock BKCenterViewInSuperviewBlock;
 @property (nonatomic, copy) BKVoidBlock layoutSubviewsBlock;
 
 @end
+
+#endif

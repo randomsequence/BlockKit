@@ -11,6 +11,7 @@
 #import <objc/runtime.h>
 #import <objc/message.h>
 
+#if TARGET_OS_IPHONE
 
 BKViewBlock BKCenterViewInSuperviewBlock = nil;
 
@@ -156,3 +157,5 @@ static BKRectBlock BKDrawRectBlockViewDrawRectBlock(id self, SEL _cmd)
 }
 
 @end
+
+#endif

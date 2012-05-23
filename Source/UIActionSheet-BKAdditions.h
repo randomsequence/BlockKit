@@ -5,9 +5,11 @@
 //  Created by Tristan O'Tierney on 3/19/09.
 //
 
-#import <UIKit/UIKit.h>
 #import "BKTypes.h"
 
+#if TARGET_OS_IPHONE
+
+#import <UIKit/UIKit.h>
 
 @interface UIActionSheet (BKAdditions)
 
@@ -16,3 +18,5 @@
 - (void)showFromRect:(CGRect)rect inView:(UIView *)view animated:(BOOL)animated buttonBlock:(BKButtonIndexBlock)block;
 
 @end
+
+#endif

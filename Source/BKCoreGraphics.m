@@ -7,6 +7,7 @@
 
 #import "BKCoreGraphics.h"
 
+#if TARGET_OS_IPHONE
 
 void BKContextGStateBlock(CGContextRef context, BKVoidBlock block)
 {
@@ -40,3 +41,5 @@ UIImage *BKImageWithContextBlock(CGSize size, CGFloat scale, BKContextBlock bloc
 
     return createdImage;
 }
+
+#endif

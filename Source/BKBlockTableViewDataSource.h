@@ -5,9 +5,11 @@
 //  Created by Tristan O'Tierney on 1/24/11.
 //
 
-#import <UIKit/UIKit.h>
 #import "BKTypes.h"
 
+#if TARGET_OS_IPHONE
+
+#import <UIKit/UIKit.h>
 
 @interface BKBlockTableViewDataSource : NSObject <UITableViewDataSource, UITableViewDelegate> {
     NSMutableArray *sections;
@@ -30,3 +32,5 @@
 - (void)didSelectRowAtIndexPath:(NSIndexPath *)indexPath;
 
 @end
+
+#endif

@@ -5,6 +5,8 @@
 //  Created by Nick Paulson on 7/16/11.
 //
 
+#if TARGET_OS_IPHONE
+
 #import "UIControl-BKAdditions.h"
 #import "BKVoidBlockWrapper.h"
 #import "NSObject-BKAdditions.h"
@@ -48,3 +50,5 @@
 }
 
 @end
+
+#endif

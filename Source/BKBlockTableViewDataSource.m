@@ -7,6 +7,7 @@
 
 #import "BKBlockTableViewDataSource.h"
 
+#if TARGET_OS_IPHONE
 
 @implementation BKBlockTableViewDataSource
 
@@ -158,3 +159,5 @@
 }
 
 @end
+
+#endif
